@@ -6,10 +6,10 @@ const ErrorPage = styled.div`
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin: 7vw;
+  margin: 4vw;
   color: #ff0101;
   span {
-    font-size: 200px;
+    font-size: 150px;
   }
   p {
     font-size: 25px;
@@ -26,7 +26,11 @@ function Notfound() {
     <main>
       <ErrorPage className="error">
         <span>404</span>
-        <p>Oups! La page que vous demandez n’existe pas.</p>
+        <p>
+          <strong>Vérifier le bon fonctionnement de l’API</strong> <br></br>
+          <br></br>dans le dossier sportsee-api <br></br>
+          ou <br></br>dans votre console fn+f12.
+        </p>
         <NavLink to="/">Retourner sur la page d’accueil</NavLink>
       </ErrorPage>
     </main>
