@@ -11,6 +11,9 @@ export const Service = {
       .then((result) => {
         return result.data
       })
+      .catch((error) => {
+        console.log('There was an error', error)
+      })
   },
 
   /**
@@ -24,6 +27,9 @@ export const Service = {
       })
       .then((result) => {
         return result.data
+      })
+      .catch((error) => {
+        console.log('There was an error', error)
       })
   },
 
@@ -39,6 +45,9 @@ export const Service = {
       .then((result) => {
         return result.data
       })
+      .catch((error) => {
+        console.log('There was an error', error)
+      })
   },
 
   /**
@@ -52,6 +61,9 @@ export const Service = {
       })
       .then((result) => {
         return result.data
+      })
+      .catch((error) => {
+        console.log('There was an error', error)
       })
   },
 }
